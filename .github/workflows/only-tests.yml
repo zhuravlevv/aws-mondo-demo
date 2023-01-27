@@ -24,9 +24,9 @@ jobs:
           distributed: adopt
 
       - name: Setup Maven
-        uses: stCarolas/setup-maven@4.4
+        uses: s4u/setup-maven-action@v1.2.1
         with:
-          maven-version: 3.8.2
+          java-version: 11
 
       - name: All the Tests and Coverage Checks
         run: mvn clean install
