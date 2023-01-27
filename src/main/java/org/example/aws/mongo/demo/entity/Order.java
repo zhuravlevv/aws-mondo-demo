@@ -11,6 +11,8 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @NoArgsConstructor
 @AllArgsConstructor
 @Document(collection = "orders")
+@ToString
+@EqualsAndHashCode
 public class Order {
     @Id
     private String id;
