@@ -1,5 +1,6 @@
 name: Only tests
 
+
 on:
   push:
     branch-ignore:
